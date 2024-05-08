@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full">
+  <a href="/" class="w-full">
     <article class="card">
       <div class="card__img-wrapper">
         <img
@@ -16,7 +16,7 @@
       </div>
       <div class="card__price">&#36; {{ card.price }}</div>
     </article>
-  </div>
+  </a>
 </template>
 
 <script setup>
@@ -33,12 +33,15 @@ defineProps({
 .card {
   display: flex;
   flex-direction: column;
-
   border-radius: 4px;
   padding-bottom: 16px;
   box-shadow: 0 2px 2px 0 #00000040;
   border: 1px solid #00000040;
   height: 100%;
+}
+
+.card:hover .card__image {
+  transform: translate(-50%, -50%) scale(1.1);
 }
 
 .card__img-wrapper {
@@ -61,6 +64,7 @@ defineProps({
   height: auto;
   max-height: 200px;
   object-fit: contain;
+  transition: all ease 0.2s;
 }
 
 .card__title {
