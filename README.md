@@ -10,6 +10,6 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 https://fakestoreapi.com/
 
 - Start app
-npm run install
+"npm run install"
 - Run app
-npm run dev 
+"npm run dev" 
