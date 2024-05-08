@@ -6,9 +6,9 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 - [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
 
-Used API 
+- Used API  
 https://fakestoreapi.com/
 
-Start app
-npm run install
-npm run dev
+Start app. 
+npm run install. 
+npm run dev. 
